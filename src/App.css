@@ -1,0 +1,17 @@
+.Welcome h2{
+  text-align: center;
+  color:black;
+}
+.Welcome h3{
+  align-items: center;
+  margin: 2rem;
+}
+.PlaceNames select{
+  margin: 4rem;
+}
+.SubmitPlaces button{
+  margin: 2rem;
+} 
+.PlaceLst p{
+  margin: 2rem;
+}

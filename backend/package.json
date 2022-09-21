@@ -1,0 +1,22 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "author": "Suchith",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "jsonpath": "^1.1.1",
+    "mongodb": "^4.10.0",
+    "mongoose": "^6.6.1",
+    "sendmail": "^1.6.1"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.2",
+    "nodemon": "^2.0.20"
+  }
+}
