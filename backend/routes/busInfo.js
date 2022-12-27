@@ -27,6 +27,7 @@ router.all('/', async function(req, res, next) {
         const busInformations= await BusInfo.find();
         const eert=busInformations.forEach(checkquery);
             console.log(sendbac)
+            console.log("dummy")
         res.json(sendbac);
             
 
